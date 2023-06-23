@@ -1,0 +1,102 @@
+.footer{
+    width: 100%;
+    background: #F2F2F2;
+}
+.footer .other-link{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.other-link .mine{
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    line-height: 80px;
+    border-bottom: 1px solid #E2E2E2;
+}
+.mine>span{
+    float: left;
+}
+.mine>span a{
+    color: #5A5757;
+    font-size: 14px;
+}
+.mine>i{
+    float: right;
+    line-height: 80px;
+    font-size: 30px;
+    color: #979595;
+    margin-right: 5px;
+}
+.other-link .self{
+    overflow: hidden;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #E2E2E2;
+}
+.other-link .self ul{
+    line-height: 2.7;
+    float: left;
+    margin-top: 55px;
+    margin-right: 9.5%;
+}
+.other-link .self>.sec-row{
+    margin-top: 95px;
+}
+.other-link .headline{
+    color: #333333;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.other-link ul a{
+    color: #5A5757;
+    font-size: 14px;
+}
+.other-link .out-share{
+    width: 100%;
+    height: 100px;
+}
+.out-share .link-us{
+    float: left;
+}
+.out-share .link-us li{
+    float: left;
+    line-height: 100px;
+    margin-right: 30px;
+}
+.out-share .link-out{
+    float: right;
+    margin-right: 15px;
+    line-height: 100px;
+}
+.out-share .link-out li{
+    float: left;
+    margin-left: 30px;
+}
+.link-out li i{
+    font-size: 30px;
+    color: #666666;
+}
+.link-out li:hover i{
+    color: #333333;
+}
+.footer .record{
+    width: 100%;
+    background: #E6E6E6;
+    height: 50px;
+}
+.record ul{
+    width: 856px;
+    margin: 0 auto;
+}
+.record li{
+    float: left;
+    line-height: 50px;
+    margin-right: 20px;
+}
+.record li a{
+    color: #666666;
+    font-size: 14px;
+}
+.record .cut{
+    color: #666666;
+}

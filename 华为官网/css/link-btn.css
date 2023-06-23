@@ -1,0 +1,22 @@
+.link-btn{
+    width: 375px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.link-btn button{
+    width: 170px;
+    height: 40px;
+    color: #111111;
+    background: #ffffff;
+    border: 1px solid #111111;
+    outline: none;
+    cursor: pointer;
+}
+.link-btn button:first-child{
+    margin-right: 20px;
+}
+.link-btn button:hover{
+    background: red;
+    color: #fff;
+    border: none;
+}

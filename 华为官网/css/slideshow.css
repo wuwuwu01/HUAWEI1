@@ -1,0 +1,149 @@
+.slideshow{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.slideshow img{
+    width: 100%;
+}
+.slideshow .imgcon{
+    width: 100%;
+    margin-left: 0%;
+    position: relative;
+}
+.slideshow .img2{
+    float: left;
+    margin-left: -100%;
+}
+.slideshow .img3{
+    margin-left: -200%;
+    float: left;
+}
+.slideshow button{
+    position: absolute;
+    bottom: 20%;
+    float: left;
+    left: 16%;
+    width: 170px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #000000;
+    cursor: pointer;
+    background: rgba(239, 239, 239, 0.5);
+}
+.slideshow .btn02{
+    margin-left: -100%;
+}
+.slideshow .btn03{
+    margin-left: -200%;
+}
+.slideshow button:hover{
+    background: #F70000;
+    border: none;
+    color: #ffffff;
+}
+.slideshow ul{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.slideshow ul li{
+    width: 100px;
+    height: 4px;
+    background: #D4D5D5;
+    float: left;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.buffer{
+    width: 100px;
+    height: 4px;
+    background: red;
+    margin-left: -100px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes move{
+    from{
+        margin-left: -100px;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+.slideshow .fa-chevron-left{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 2%;
+    font-size: 40px;
+    color: #FF7B72;
+    display: none;
+}
+.slideshow .fa-chevron-right{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    bottom: 50%;
+    font-size: 40px;
+    color: #FF7B72;
+    display: none;
+}
+/* 从右边出去 */
+.out-right{
+    animation-name: leave-fight;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+@keyframes leave-right{
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 100%;
+    }
+}
+/* 从左边进来 */
+.in-left{
+    animation-name: enter;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes enter-left{
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+/* 从左边出去 */
+.out-left{
+    animation-name: leave-left;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+@keyframes leave-left{
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: -100%;
+    }
+}
+/* 从右边进来 */
+.in-right{
+    animation-name: enter-right;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+@keyframes enter-right{
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,149 @@
+.recommend{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 90px;
+}
+.caption{
+    margin: 50px auto;
+    text-align: center;
+}
+.caption h1{
+    color: #333333;
+    font-size: 30px;
+}
+.caption div{
+    width: 40px;
+    height: 2px;
+    background: #DE0000;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.panel-img-list{
+    overflow: hidden;
+    padding: 0;
+}
+.panel-img-list .p40{
+    max-width: 64%;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    float: left;
+    margin-bottom: 30px;
+}
+.panel-img-list .nova{
+    max-width: 31%;
+    height: auto;
+    float: right;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.panel-img-list .activity-1{
+    max-width: 31%;
+    height: auto;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.panel-img-list .activity-2{
+    max-width: 64%;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    float: right;
+    margin-bottom: 30px;
+}
+.panel-img-list .live{
+    max-width: 31%;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    float: left;
+}
+.panel-img-list .story{
+    max-width: 31%;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    float: left;
+    margin-left: 3.5%;
+}
+.panel-img-list .insight{
+    max-width: 31%;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    float: right;
+}
+.panel-img-box .img-box img{
+    width: 100%;
+    transition: all 0.5s;
+}
+.panel-img-box .text-box{
+    width: 100%;
+    line-height: 1.5;
+    position: absolute;
+    bottom: 0;
+    padding-left: 30px;
+    background: rgba(181, 177, 171, 0.8);
+    box-shadow: 0 20px 40px 70px rgba(181, 177, 171, 0.8);
+}
+.text-box .pro{
+    color: #ffffff;
+    font-size: 16px;
+}
+.text-box .name{
+    color: #FCFCFC;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.text-box .describe{
+    color: #E8E8E8;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.text-box .more{
+    height: 0px;
+    transition: height 0.5s;
+}
+.text-box .more span{
+    color: #ffffff;
+    font-size: 16px;
+}
+.text-box .more i{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #EA0000;
+    font-size: 16px;
+    margin-left: 4px;
+    transition: margin-left 0.3s;
+}
+.text-box .more span:hover i{
+    margin-left: 7px;
+}
+.panel-img-box:hover .more{
+    height: 46px;
+}
+.panel-img-box:hover .text-box{
+    background: rgba(77, 76, 74, 0.5);
+    box-shadow: 0 70px 70px 240px rgba(77, 76, 74, 0.5);
+}
+.panel-img-box:hover img{
+    transform: scale(1.1);
+}
+.live .name{
+    margin-bottom: 10px;
+}
+.story .text-box{
+    background: rgba(181, 177, 171, 0);
+    box-shadow: none;
+}
+.story .name{
+    margin-bottom: 10px;
+}
+.insight .text-box{
+    background: rgba(181, 177, 171, 0);
+    box-shadow: none;
+}

@@ -1,0 +1,480 @@
+.nav-con{
+    position: relative;
+}
+.nav{
+    width: 1260px;
+    height: 78px;
+    line-height: 78px;
+    margin: 0 auto;
+    background: #fff;
+    border-bottom: 1px solid #E6E6E6;
+    position: relative;
+}
+.nav>a{
+    display: block;
+    float: left;
+}
+.nav a img{
+    width: 133px;
+}
+.nav .center{
+    margin-left: 310px;
+}
+.nav .center>li{
+    float: left;
+    margin-right: 25px;
+    padding: 0 5px;
+}
+.center li>span{
+    color: #333333;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav .right{
+    float: right;
+    margin-right: 2px;
+}
+.nav .right>li{
+    float: left;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.right li span{
+    color: #333333;
+    font-size: 16px;
+}
+.right li i:first-child{
+    color: #333333;
+    font-size: 20px;
+}
+/* 设置个人及家庭产品下拉框 */
+.center .personal{
+    width: 100%;
+    height: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: 9999;
+    left: 0;
+}
+.center .personal .per{
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.per .icon{
+    width: 700px;
+    line-height: 1.2;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+.per .icon ul{
+    float: left;
+    margin-right: 50px;
+}
+.per ul li{
+    width: 75px;
+    clear: both;
+    text-align: center;
+    cursor: pointer;
+}
+.per ul li i{
+    color: #A19D97;
+    font-size: 60px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.icon ul li a{
+    display: block;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    margin: 10px auto;
+}
+.icon ul:hover a{
+    text-decoration: underline;
+}
+.per img{
+    width: 366px;
+    height: 366px;
+    margin-top: -35px;
+    margin-left: 10%;
+}
+.personal .bottom{
+    background: #F7F7F7;
+    width: 100%;
+    height: 95px;
+    left: 0;
+    top: 5px;
+    line-height: 95px;
+    z-index: 9999;
+}
+.bottom div{
+    width: 200px;
+    float: left;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.bottom div i:first-child{
+    color: #E40000;
+    font-size: 35px;
+}
+.bottom div .fas{
+    display: none;
+}
+.bottom div a{
+    display: inline-block;
+    margin: 0 10px;
+    color: #666666;
+}
+.bottom span{
+    float: right;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.bottom span i{
+    font-size: 30px;
+    line-height: 95px;
+    color: #000000;
+}
+.bottom div:hover a{
+    color: #000000;
+}
+.bottom div:hover .fas{
+    display: inline;
+}
+/* 商用产品及方案下拉框 */
+.center .scheme .business{
+    width: 100%;
+    height: 0;
+    position: fixed;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+    top: 107px;
+    left: 0;
+}
+.business .list{
+    padding-left: 8%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.business .list .outer{
+    float: left;
+    line-height: 2.5;
+    margin-right: 30px;
+}
+.list .outer li{
+    clear: both;
+    font-size: 14px;
+}
+.list .outer ul{
+    float: left;
+}
+.outer>li:first-child{
+    font-size: 20px;
+    color: #343535;
+    border-bottom: 1px solid #E8E7E4;
+}
+.outer ul .sec-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.outer ul{
+    margin-top: 15px;
+    margin-right: 70px;
+}
+.outer .kun{
+    margin-top: 55px;
+}
+.outer .notitle{
+    margin-top: 15px;
+}
+.outer li a{
+    color: #96928D;
+}
+.outer li a:hover{
+    text-decoration: underline;
+}
+.outer .special i{
+    color: #FF5955;
+    transition: margin-left 0.3s;
+}
+.outer .special:hover i{
+    margin-left: 5px;
+}
+.list img{
+    width: 245px;
+    margin-left: 10%;
+    margin-top: 35px;
+}
+.business .below{
+    clear: both;
+    width: 100%;
+    height: 95px;
+    line-height: 95px;
+    background: #F7F7F6;
+}
+.below div{
+    float: left;
+    margin-left: 70px;
+    width: 200px;
+}
+.below div a{
+    display: inline-block;
+    margin: 0 10px;
+    color: #666460;
+    font-size: 14px;
+}
+.below div i:first-child{
+    font-size: 35px;
+    color: #FC2A2B;
+}
+.below span{
+    float: right;
+    margin-right: 100px;
+}
+.below span i{
+    font-size: 30px;
+    line-height: 95px;
+    color: #101010;
+}
+.below div .fas{
+    display: none;
+}
+.below div:hover .fas{
+    display: inline;
+}
+/* 服务支持下拉框 */
+.center .support .serve{
+    position: fixed;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+    top: 107px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding-left: 13%;
+}
+.serve ul{
+    margin-top: 30px;
+    float: left;
+    line-height: 2.5;
+    margin-right: 7%;
+}
+.serve ul li:first-child{
+    color: #343535;
+    font-size: 20px;
+    border-bottom: 1px solid #E8E7E4;
+}
+.serve li a{
+    color: #5C5B56;
+    font-size: 14px;
+}
+.serve li i{
+    color: #FF4A49;
+    transition: margin-left 0.3s;
+}
+.serve a:hover{
+    text-decoration: underline;
+}
+.serve .special:hover i{
+    margin-left: 5px;
+}
+.serve #close-ser{
+    clear: both;
+    margin-left: 75%;
+}
+#close-ser i{
+    color: #000000;
+    font-size: 30px;
+}
+/* 合作伙伴与开发者下拉框 */
+.center .developer .partner{
+    position: fixed;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+    top: 107px;
+    left: 0;
+    height: 0;
+    width: 100%;
+    padding-left: 13%;
+}
+.partner ul{
+    margin-top: 30px;
+    float: left;
+    line-height: 2.5;
+    margin-right: 10%;
+}
+.partner ul li:first-child{
+    color: #343535;
+    font-size: 20px;
+    border-bottom: 1px solid #E8E7E4;
+}
+.partner li a{
+    color: #5C5B56;
+    font-size: 14px;
+}
+.partner li i{
+    color: #FF4A49;
+    transition: margin-left 0.3s;
+}
+.partner a:hover{
+    text-decoration: underline;
+}
+.partner .special:hover i{
+    margin-left: 5px;
+}
+.partner #close-part{
+    clear: both;
+    margin-left: 75%;
+}
+#close-part i{
+    color: #000000;
+    font-size: 30px;
+}
+/* 关于华为下拉框 */
+.center .huawei .about{
+    position: fixed;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+    top: 107px;
+    left: 0;
+    height: 0;
+    width: 100%;
+    padding-left: 10%;
+    line-height: 2.5;
+}
+.about .scale{
+    float: left;
+    margin-top: 30px;
+    margin-right: 5%;
+}
+.about .scale ul{
+    float: left;
+    margin-right: 100px;
+}
+.scale>li:first-child{
+    font-size: 20px;
+    color: #343535;
+    border-bottom: 1px solid #E8E7E4;
+    margin-bottom: 20px;
+}
+.scale li a{
+    color: #5C5B56;
+    font-size: 14px;
+}
+.scale li a:hover{
+    text-decoration: underline;
+}
+.about img{
+    width: 335px;
+    margin-top: 50px;
+    margin-left: 6%;
+}
+.about #close-about{
+    margin-left: 75%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#close-about i{
+    color: #000000;
+    font-size: 30px;
+}
+/* 设置在线购买下拉框 */
+.nav .right .cart{
+    width: 170px;
+    height: 90px;
+    line-height: 44px;
+    position: absolute;
+    z-index: 9999;
+    text-align: center;
+    background: #fff;
+    right: 20px;
+    display: none;
+}
+.cart li{
+    clear: both;
+    width: 168px;
+    height: 44px;
+    border: 1px solid #E6E6E6;
+    cursor: pointer;
+}
+.cart li:first-child{
+    border-bottom: none;
+}
+.nav .right .cart>li>i{
+    color: #86837E;
+    font-size: 15px;
+}
+.cart li a{
+    color: #86837E;
+    font-size: 13px;
+}
+.cart li:hover a{
+    color: #000000;
+}
+/* 设置搜索框 */
+.search{
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    display: none;
+}
+.search input{
+    box-sizing: border-box;
+    width: 430px;
+    height: 48px;
+    font-size: 16px;
+    text-indent: 20px;
+    border: 1px solid #BEBDBD;
+    border-right: none;
+    outline: none;
+}
+.search .search-btn{
+    box-sizing: border-box;
+    height: 48px;
+    width: 40px;
+    background: #fff;
+    color: #8F8786;
+    border: 1px solid #BEBDBD;
+    border-left: none;
+    font-size: 16px;
+    margin-left: -5px;
+    outline: none;
+}
+.search>i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #8F8786;
+}
+.search .hot{
+    width: 430px;
+    height: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    background: #fff;
+    position: absolute;
+    line-height: 2.4;
+    overflow: hidden;
+    z-index: 999;
+}
+.search .hot div{
+    margin-top: 20px;
+}
+.hot span{
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-left: 35px;
+}
+.hot a{
+    color: #333333;
+    font-size: 16px;
+    display: block;
+    padding-left: 35px;
+}
+.hot a:hover{
+    color: #fff;
+    background: #9A9691;
+}

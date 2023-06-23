@@ -1,0 +1,26 @@
+.img-show{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.img-show img{
+    width: 100%;
+}
+.img-show .btn{
+    position: absolute;
+    top: 50%;
+    left: 14%;
+}
+.img-show .btn button{
+    width: 170px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    outline: none;
+    color: #ffffff;
+}
+.img-show .btn:hover button{
+    border: none;
+    background: rgb(222, 0, 0);
+}

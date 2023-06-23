@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('../font/iconfont.eot'); /* IE9 */
+  src: url('../font/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAVkAAsAAAAACoAAAAUWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqIJIZvATYCJAMUCwwABCAFhG0HQxv2CFFUTnpkP1KrPu7x8Czn7///Nu2+EUIGPUEq9mJupLtOkoGQOJmIQ+vQOgSqpiRrQle/zEiAAEQe+p3/6l5MQURRlKQBjm1ikx0cM10mWJ7N5pKRWEHj0YBns48Osn9Q7EU8gwvl5Ny8GCAAjNlCoJ5XUgN8FKVGWLd0WjXwcxZUCxPh63k1ByagB2j8spR4CAArw89HP0TFByDQFdSOFTO3ETI+2llNGlwGeNcjQLo9FwAMDgMgAYQAoADatZ5WZJwJQWJmKUoGmKf4CMS2lgU7I53VLheoOCMdozWwjS88CgFQA6URIjYjSwEnbfmABM5gPkDAGSlp11ajBQjW0MMDGABKgAYAekFR5Fw8BDv5IcRQpIckJjw9NcUdCeUi4XmpQKAVvnpV63DUvX6tevlS50WpqCRE5ftGX1O9Q4353L5DYNgot+z1sdjVygAMsm2YsuFIsM0miG6AjEHjuxnTXrllIzDGEzMOPHjLZlVYrQYLEkzj+xlte2zq16+rXquMb+octVtW3vEnNR+aaX2F7bvD7Afltl3TrHa5/aWKsdidz2+ZMn7A33R4uuWgcrcjfXx9VrnBjDsOs1n78puaV9/WOt7Q6s5+hhSwDHIwppkQXNVLUCs48CTefC/wUq3GftF02XjFfEkrFmZUL79pE6x/mxrDq8SaOuW9/PXI4aiyWsFgkVsY027jnhoSHXKV2aqwWNQy0X7XMfuXel1wqCzMeL0fDLXJCgqLa+xD0nrrltUpyb4IFWnxO4rt5MQEicrtLMIWLrqwlDh+nEDlUhahgv/P+cOznn4qmiVbuyJnb5h9xxpOLAoViXWFWdd7c5bT60xif6/J72RTv1ixzigPnUV/7eUhHzCcSMgZ8hhacky2xz4kS5p2DP5NK4eV0d9sXASPz1LUOdgFI23rFsJ98tLf/9xwvB54m6chuLzM2AYX7kvsGmPhXvwyAs9vnp0XNEuu8stRSsmYAHkccWo5cfqpm7T/J+mKg+A7OS1+G7isR6nTv/xyGpUUT1GnqXh/1ASNMU3MCYwV+FLKF6jP1Hdkad8zqEwKv/h732nYSrzHK0WhazpnI98CKD0kdMfRGuG5ArjGgJrEeJKCOYypSXxxq70cJc3iaivRu2ioBVWGhZQOKjKL/QCin4EKO+vVV/8T8jfOi+QJxVNEPZGZ4Y7/K/+f9j/jtvHSFZTf+F4xIqEPo3yUx1fDP8x7o/TP/aogklr1iewT+UNG0khD1l0MH1KbkpcEANdV8jKZ8THeCH4petf8gSTlN77gmz33sVYSHLpcBmoNC8BnUQti6YdWKhyh5nJlpXPabiXTWloTPnjRpZ/Plo9qwMNn29EpxBr4TegUKRDczAISnw+SwoYATSAGePjSgREs/3ABGT0SSncACLIQAJE6AgSxK0CSeoSksJ8CTeln4JFGAkMVshMK+KVjsvWsmmMbcf0A1jV0tGuMnWOi+ipW29Oq1mflIUvF6rt1cRwZFlHM57PtrH4bu3T3aqM4ToM1+o42nAeXY1tbO3CnvqOZbeDCmjiuMyk8XFP3TmENHW3AyKbHUuOwGmH1BmA6DTq00/jZHKb08VVYWj1aqelbOs4EVVh63XSLY5HCRAiQ+Zp2UcdjeUy3XlpROBwNTEOvQxssD1ysVp3pgHXWr9eM1YATpmmNVKck4TRJI9WE7V/X9hhL/zFd1enpIBCJKEQjHvAO296k7iAqKwlde8ao6w/MAAAA') format('woff2'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('http://www.ylcp.shop/files/files/1650896299792/iconfont/otherways/iconfont.svg?t=1598090795903') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wenhao:before {
+  content: "\e62b";
+}
+
+.icon-QQ:before {
+  content: "\e653";
+}
+
+.icon-in:before {
+  content: "\e605";
+}
+
+.icon-weixin:before {
+  content: "\e631";
+}
+

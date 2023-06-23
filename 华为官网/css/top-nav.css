@@ -1,0 +1,116 @@
+.top-nav{
+    width: 100%;
+}
+/* 设置最上面导航栏样式 */
+.top-nav .top-bar{
+    height: 25px;
+    background: #111111;
+    overflow: hidden;
+}
+.top-bar ul{
+    margin-right: 10px;
+}
+.top-bar li{
+    padding: 0 10px;
+    text-align: center;
+    float: right;
+    color: #CCCCCC;
+    margin-right: 32px;
+    font-size: 13px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.top-bar .login a{
+    color: #CCCCCC;
+}
+/* 设置集团网站下拉框样式 */
+.top-nav .net{
+    width: 100%;
+    height: 0;
+    background: #F7F7F7;
+    border-bottom: 1px solid #E6E6E6;
+    overflow: hidden;
+}
+.net ul{
+    width: 175px;
+    float: left;
+    margin-left: 6%;
+    margin-top: 45px;
+}
+.net .brief{
+    margin-left: 8%;
+}
+.net .brief .title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.brief .title i{
+    color: #DE0000;
+}
+.net .link a{
+    color: #4D4D4D;
+    font-size: 15px;
+}
+.link a i{
+    margin-left: 9px;
+    transition: margin-left 0.5s;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+.link a:hover i{
+    color: rgb(222,23,87);
+    margin-left: 12px;
+}
+.net .intro{
+    color: #808080;
+    font-size: 13px;
+    margin-top: 35px;
+}
+/* 设置语言区域下拉框样式 */
+.top-nav .region{
+    width: 100%;
+    height: 0;
+    background: #F7F7F7;
+    border-bottom: 1px solid #E6E6E6;
+    overflow: hidden;
+}
+.region h3{
+    margin-top: 62px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.region ul{
+    float: left;
+    margin-left: 6%;
+}
+.region .first{
+    margin-left: 8%;
+}
+.region ul li{
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #808080;
+}
+.region ul li a{
+    color: #808080;
+    font-size: 15px;
+}
+.region ul li a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+.region li .zhong i{
+    color: #E02357;
+}
+.region li .zhong{
+    color: #000000;
+}
+.region ul li .zhong>a{
+    color: #000000;
+}
+.change{
+    background: #F7F7F7;
+    color: #808080;
+}

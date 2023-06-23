@@ -1,0 +1,133 @@
+.login{
+    width: 540px;
+    margin: 0 auto;
+}
+.login .logo{
+    width: 140px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+.logo img{
+    width: 140px;
+    height: 30px;
+}
+.account-box{
+    width: 365px;
+    padding: 35px 90px;
+    overflow: hidden;
+    margin-bottom: 90px;
+    box-shadow: 0 0 20px  rgba(77, 76, 74, 0.5);
+}
+.account h1{
+    color: #282828;
+    font-size: 45px;
+}
+.huawei-account{
+    width: 365px;
+    margin-top: 30px;
+    color: #282828;
+    font-size: 16px;
+    line-height: 2;
+    border-bottom: 1px solid #D4D4D4;
+    overflow: hidden;
+}
+.huawei-account span{
+    color: #FF0000;
+    font-size: 14px;
+}
+.huawei-account input{
+    width: 360px;
+    height: 50px;
+    font-size: 16px;
+    text-indent: 10px;
+    border: 1px solid #D4D4D4;
+    border-radius: 5px;
+    outline: none;
+}
+.huawei-account input:focus{
+    border-color: #00B5EB;
+    box-shadow: 0 0 10px  rgba(77, 76, 74, 0.5);
+}
+.huawei-account .acinput{
+    margin-bottom: 30px;
+}
+.acinput .account-error{
+    color: #FF6560;
+    display: none;
+}
+.acinput .testaccount{
+    color: #FF6560;
+    display: none;
+}
+.huawei-account .passinput{
+    margin-bottom: 10px;
+}
+.passinput .password-error{
+    color: #FF6560;
+    display: none;
+}
+.huawei-account .forget{
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.huawei-account button{
+    width: 360px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    background: #FF6560;
+    cursor: pointer;
+}
+.huawei-account button:hover{
+    background: #CB3F3E;
+}
+.huawei-account .signin{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: #282828;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.other-ways{
+    margin-top: 20px;
+    text-align: center;
+}
+.other-ways span{
+    color: #282828;
+    font-size: 16px;
+}
+.other-ways .fa-qq{
+    color: #00AAE1;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.other-ways .fa-weixin{
+    color: #00853F;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.other-ways .fa-linkedin{
+    color: #0070B7;
+    font-size: 25px;
+}
+.helps{
+    margin-top: 30px;
+}
+.helps i{
+    color: #00B2E8;
+    font-size: 20px;
+}
+.helps .get{
+    color: #282828;
+    font-size: 16px;
+    text-decoration: underline;
+}
